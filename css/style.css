@@ -1,0 +1,55 @@
+body {
+    background-color: #f6f7e5;
+    opacity: .9;
+    background-image: linear-gradient(#e9c074 1px, transparent 1px), linear-gradient(to right, #e9c074 1px, #e5e5f7 1px);
+    background-size: 40px 40px;
+    font-family: "Roboto Mono", monospace;
+    font-style: normal;
+    color: #283747;
+}
+
+img {
+    border-radius: 10px;
+    opacity: 1;
+}
+
+h1, h2 {
+    font-family: "Honk", system-ui;
+    font-variation-settings:
+        "MORF" 15,
+        "SHLN" 50;
+    text-align: center;
+}
+
+figure {
+    background-color: azure;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+
+fieldset {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: azure;
+}
+
+legend {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: georgian;
+}
+
+ol{
+    list-style-type: lower-greek;
+}
+
+a {
+    color: #74A7E8;
+}
